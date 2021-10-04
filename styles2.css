@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.section__form {
+    margin-left: 30px;
+}
+
+.form__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+    height: 100px;
+    width: 22%;
+}
+
+.button {
+    margin: 10px;
+    width: 70%;
+}
