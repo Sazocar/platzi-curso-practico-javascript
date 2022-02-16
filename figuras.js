@@ -55,7 +55,7 @@ function calcularPerimetroCuadrado() {
     let value = input.value;
 
     let perimetro = perimetroCuadrado(value);
-    alert(perimetro);
+    alert(`El perimetro del cuadrado es: ${perimetro}`);
 }
 
 
@@ -69,9 +69,9 @@ function calcularAreaCuadrado() {
 
 
 function calcularPerimetroTriangulo() {
-    let ladoA = parseInt(document.getElementById('ladoATriangulo').value);
-    let ladoB = parseInt(document.getElementById('ladoBTriangulo').value);
-    let base = parseInt(document.getElementById('baseTriangulo').value);
+    let ladoA = parseFloat(document.getElementById('ladoATriangulo').value);
+    let ladoB = parseFloat(document.getElementById('ladoBTriangulo').value);
+    let base = parseFloat(document.getElementById('baseTriangulo').value);
 
     perimetro = perimetroTriangulo(ladoA, ladoB, base);
     alert(perimetro);
@@ -79,8 +79,8 @@ function calcularPerimetroTriangulo() {
 
 
 function calcularAreaTriangulo() {
-    let base = parseInt(document.getElementById('baseTriangulo').value);
-    let altura = parseInt(document.getElementById('alturaTriangulo').value);
+    let base = parseFloat(document.getElementById('baseTriangulo').value);
+    let altura = parseFloat(document.getElementById('alturaTriangulo').value);
 
     area = areaTriangulo(base, altura);
     alert(area);
